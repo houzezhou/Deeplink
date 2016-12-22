@@ -1,4 +1,4 @@
-import React from 'react'
+var React = require('react');
 import { Card } from 'antd';
 
 // 引入标准Fetch及IE兼容依赖

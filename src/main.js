@@ -5,7 +5,7 @@
  * @description 主入口模块
  */
 
-import React from 'react'
+var React = require('react');
 import { render } from 'react-dom'
 
 // 引入React-Router模块

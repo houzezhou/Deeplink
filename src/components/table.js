@@ -1,4 +1,4 @@
-import React from 'react'
+var React = require('react');
 import {Table, Icon} from 'antd'
 
 export default class myTable extends React.Component {

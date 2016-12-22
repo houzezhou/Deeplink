@@ -1,4 +1,4 @@
-import React from 'react'
+var React = require('react');
 import { Calendar } from 'antd';
 
 export default class myCalendar extends React.Component {

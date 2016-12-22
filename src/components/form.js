@@ -1,4 +1,4 @@
-import React from 'react'
+var React = require('react');
 import { Form, Input, Select, Checkbox, DatePicker, Col, Radio, Button, Modal, message } from 'antd'
 
 const FormItem = Form.Item

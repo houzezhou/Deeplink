@@ -1,4 +1,4 @@
-import React from 'react'
+var React = require('react');
 import Highcharts from 'highcharts'
 
 export default class myChart extends React.Component {

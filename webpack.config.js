@@ -41,7 +41,16 @@ module.exports = {
     // instead of using vue-loader's default:
     babel: {
         presets: ['es2015', 'stage-0', 'react'],
-        plugins: ['transform-runtime', ["antd",  { "style": "css" }]]
+        plugins: ['transform-runtime', ["antd",  { 
+            style: 'css',
+            libraryName: "antd"
+        }]]
+    },
+    externals: {
+       // don't bundle the 'react' npm package with our bundle.js
+       // but get it from a global 'React' variable
+       'react': 'React',
+       'react-dom': 'ReactDOM' 
     },
     plugins: [
         new webpack.ProvidePlugin({

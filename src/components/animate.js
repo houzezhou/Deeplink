@@ -1,4 +1,4 @@
-import React from 'react'
+var React = require('react');
 
 // 结尾组件
 export default class myAnimate extends React.Component {
