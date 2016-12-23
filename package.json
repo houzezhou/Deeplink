@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --quiet",
-    "build": "webpack --profile --color -progress --config webpack.config.js",
+    "build": "webpack --profile --color --progress --config webpack.config.js",
     "watch": "webpack -w"
   },
   "author": "hzz",
